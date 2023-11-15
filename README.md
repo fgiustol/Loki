@@ -25,7 +25,7 @@ export PKG_CONFIG_PATH="/opt/homebrew/opt/openssl@1.1/lib/pkgconfig"
 ```
 
 ## Acknowledgments
-An initial version of the implementation of the proofs for ballot verifiability are available as part of a [BSc Project](https://github.com/Myssenberg/BScProject).
+An initial version of the implementation of the proofs for ballot verifiability is available as part of a [BSc Project](https://github.com/Myssenberg/BScProject).
 
 ## Contacts
 Rosario Giustolisi <rosg@itu.dk>
