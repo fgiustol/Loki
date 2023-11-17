@@ -16,7 +16,13 @@ apt-get install libffi-dev libssl-dev
 
 ## MacOS
 
-Loki has been tested on MacOS Sonoma 14.1 with Homebrew Python3. Known issues with the installation of zksk and its dependencies could be addressed by setting path and environment variables 
+Loki has been tested on MacOS Sonoma 14.1 with Homebrew Python3. Known issues with the installation of zksk and its dependencies could be addressed by installing openssl version 1.1
+```
+brew install openssl@1.1
+```
+
+
+and setting path and environment variables 
 ```
 export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
