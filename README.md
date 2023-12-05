@@ -22,7 +22,7 @@ brew install openssl@1.1
 ```
 
 
-and setting path and environment variables 
+and setting path and environment variables according to the output of ``` brew info openssl@1.1 ```. For example:
 ```
 export LDFLAGS="-L/opt/homebrew/opt/openssl@1.1/lib"
 export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
