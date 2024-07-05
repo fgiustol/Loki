@@ -1,5 +1,5 @@
 # Loki
-This is a prototype implementation of Loki, a strong-verifiable coercion-resistant voting system based on the paper "Thwarting Last-Minute Voter Coercion" by Rosario Giustolisi, Maryam Sheikhi, and Carsten Schuermann, accepted to IEEE S&P 2024.
+This is a prototype implementation of Loki, a strong-verifiable coercion-resistant voting system based on the paper ["Thwarting Last-Minute Voter Coercion"](https://eprint.iacr.org/2023/1876) by Rosario Giustolisi, Maryam Sheikhi, and Carsten Schuermann, accepted to IEEE S&P 2024.
 
 Loki requires [zksk](https://github.com/spring-epfl/zksk) for the implementation of disjunctive zero-knowledge proofs. Make sure that it is installed correctly by following the [zksk instructions](https://github.com/spring-epfl/zksk#getting-started).
 
